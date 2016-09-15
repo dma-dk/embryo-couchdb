@@ -1,4 +1,4 @@
-FROM rocoto/couchdb:latest
+FROM couchdb:latest
 
 COPY ./info/README.txt /README.txt
 COPY ./entrypoint-embryo.sh /entrypoint.sh
